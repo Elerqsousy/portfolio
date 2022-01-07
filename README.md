@@ -2,7 +2,7 @@
 
 > This project is menat to have a complete portolio of my work. Using the tools and knowledge that I learn in my school Microverse.
 
-![screenshot](.images/app_screenshot.png)
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
