@@ -13,20 +13,6 @@
 
 [Live Demo Link](https://elerqsousy.github.io/Portfolio/)
 
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Deployment
-
 ## Authors
 
 👤 **Mahmoud Rizk**
