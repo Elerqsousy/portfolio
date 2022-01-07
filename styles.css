@@ -16,11 +16,12 @@
 
 /* main */
 /* main {
-  display: flex;
-  flex-direction: column;
-} */
+    display: flex;
+    flex-direction: column;
+  } */
 
 /* page break */
+
 .page-brk {
   width: 100%;
   margin-bottom: 20px;
@@ -28,6 +29,7 @@
 }
 
 /* section 1 */
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -51,20 +53,20 @@
 }
 
 .heading {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-size: 50px;
   color: #1a2236;
   line-height: 100%;
 }
 
 /* buttons */
+
 button {
   cursor: pointer;
   border: none;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   height: 50px;
-
   line-height: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -76,17 +78,17 @@ button:active {
 
 .btn-normal {
   background-color: #1a2236;
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn-normal:hover {
   border: 1px solid #1a2236;
-  background: #ffffff;
+  background: #fff;
   color: #1a2236;
 }
 
 .btn-normal:active {
   border: 1.5px solid #1a2236;
-  background: #ffffff;
+  background: #fff;
   color: #1a2236;
 }

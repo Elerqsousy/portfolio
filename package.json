@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elerqsousy/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elerqsousy/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Elerqsousy/Portfolio#readme"
+}
