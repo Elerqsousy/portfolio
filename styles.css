@@ -57,14 +57,36 @@
   line-height: 100%;
 }
 
-.btn {
-  background-color: #1a2236;
-  color: #ffffff;
+/* buttons */
+button {
+  cursor: pointer;
+  border: none;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   height: 50px;
-  font-weight: bold;
+
   line-height: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+button:active {
+  font-weight: bold;
+}
+
+.btn-normal {
+  background-color: #1a2236;
+  color: #ffffff;
+}
+
+.btn-normal:hover {
+  border: 1px solid #1a2236;
+  background: #ffffff;
+  color: #1a2236;
+}
+
+.btn-normal:active {
+  border: 1.5px solid #1a2236;
+  background: #ffffff;
+  color: #1a2236;
 }
