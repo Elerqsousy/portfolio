@@ -1,10 +1,8 @@
-# Project Name
+# My Portfolio
 
-> One paragraph statement about the project.
+> This project is menat to have a complete portolio of my work. Using the tools and knowledge that I learn in my school Microverse.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](.images/app_screenshot.png)
 
 ## Built With
 
@@ -13,7 +11,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://elerqsousy.github.io/Portfolio/)
 
 ## Getting Started
 
