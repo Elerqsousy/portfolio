@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+/* nav bar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ic-menu {
+  margin-right: 20px;
+  margin-top: -20px;
+}
