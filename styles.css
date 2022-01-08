@@ -34,11 +34,10 @@ img {
 
 /* section 1 */
 
-.intro {
+.white-bg {
   display: flex;
   flex-direction: column;
   text-align: left;
-  align-content: stretch;
   max-width: 90vw;
   justify-content: space-between;
   margin: auto;
@@ -143,7 +142,7 @@ button:active {
   grid-template-areas: "." "." "." "." "." ".";
 }
 
-article {
+.dark-bg {
   background-color: #1a2236;
 }
 
@@ -173,4 +172,59 @@ article {
   padding: 2px 10px;
   color: #1a2236;
   font-weight: bold;
+}
+
+/* about section */
+
+.about-container {
+display: flex;
+flex-wrap: wrap;
+padding-top: 30px;
+}
+
+.about {
+  width: 289px;
+  height: 289px;
+  padding: 50px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+}
+
+.blue {
+  background-color: #1C528A;
+}
+
+.red {
+  background-color: #E2505C;
+}
+
+.yellow {
+  background-color: #FEBF52;
+}
+
+.icon-bg {
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.heading3 {
+  font-family: "Poppins", sans-serif;;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.para2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  padding-left: 20px;
 }
