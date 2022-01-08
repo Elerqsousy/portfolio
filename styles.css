@@ -160,7 +160,7 @@ button:active {
   font-weight: bold;
 }
 
-.about-container {
+.cards-container {
   display: flex;
   flex-wrap: wrap;
   padding-top: 30px;
@@ -211,4 +211,8 @@ button:active {
   line-height: 27px;
   letter-spacing: -0.0525em;
   padding-left: 20px;
+}
+
+.side-li {
+  padding-top: 10px;
 }
