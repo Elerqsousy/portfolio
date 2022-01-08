@@ -14,12 +14,22 @@
   margin-top: -20px;
 }
 
-/* page break */
+/* imgs */
+
+img {
+  width: 100%;
+  /* height: auto; */
+}
 
 .page-brk {
   width: 100%;
   margin-bottom: 20px;
   margin-top: 10px;
+}
+
+.icon {
+  width: auto;
+  background-color: inherit;
 }
 
 /* section 1 */
@@ -32,7 +42,7 @@
   max-width: 90vw;
   justify-content: space-between;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .para {
@@ -51,6 +61,21 @@
   font-size: 50px;
   color: #1a2236;
   line-height: 100%;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.heading2 {
+  margin: 15px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.heading-works {
+  margin-left: 5%;
+  margin-bottom: 30px;
 }
 
 /* buttons */
@@ -60,29 +85,92 @@ button {
   border: none;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  height: 50px;
+  height: 45px;
   line-height: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-button:active {
   font-weight: bold;
 }
 
-.btn-normal {
+button:active {
+  font-weight: bolder;
+}
+
+.buttons-primary-dark {
   background-color: #1a2236;
   color: #fff;
 }
 
-.btn-normal:hover {
+.buttons-primary-dark:hover {
   border: 1px solid #1a2236;
   background: #fff;
   color: #1a2236;
 }
 
-.btn-normal:active {
+.buttons-primary-dark:active {
   border: 1.5px solid #1a2236;
   background: #fff;
   color: #1a2236;
+}
+
+.buttons-primary-white {
+  background-color: #fff;
+  color: #1a2236;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+}
+
+.buttons-primary-white:hover {
+  border: 1px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+}
+
+.buttons-primary-white:active {
+  border: 1.5px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+}
+
+/* grid */
+
+.works {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-auto-flow: row;
+  grid-template-areas: "." "." "." "." "." ".";
+}
+
+article {
+  background-color: #1a2236;
+}
+
+.project {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 20px;
+}
+
+/* languages part */
+
+.lang-container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 10.3334px;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.languages {
+  /* box-sizing: content-box; */
+  background-color: #98dede;
+  padding: 2px 10px;
+  color: #1a2236;
+  font-weight: bold;
 }
