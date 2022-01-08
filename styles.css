@@ -161,9 +161,9 @@ button:active {
 }
 
 .about-container {
-display: flex;
-flex-wrap: wrap;
-padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
 }
 
 .about {
@@ -176,15 +176,15 @@ padding-top: 30px;
 }
 
 .blue {
-  background-color: #1C528A;
+  background-color: #1c528a;
 }
 
 .red {
-  background-color: #E2505C;
+  background-color: #e2505c;
 }
 
 .yellow {
-  background-color: #FEBF52;
+  background-color: #febf52;
 }
 
 .icon-bg {
@@ -196,7 +196,7 @@ padding-top: 30px;
 }
 
 .heading3 {
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 22px;
   line-height: 30px;
