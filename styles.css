@@ -145,7 +145,7 @@ button:active {
 }
 
 .lang-container {
-  display: flex;
+  /* display: flex; */
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 10.3334px;
@@ -154,10 +154,13 @@ button:active {
 }
 
 .languages {
+  float: left;
   background-color: #98dede;
   padding: 2px 10px;
   color: #1a2236;
   font-weight: bold;
+  margin-right: 10px;
+  list-style: none;
 }
 
 .cards-container {
