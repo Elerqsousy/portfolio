@@ -145,13 +145,10 @@ button:active {
 }
 
 .lang-container {
-  /* display: flex; */
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 10.3334px;
   width: 260px;
-  /* justify-content: space-between; */
-  justify-content: center;
 }
 
 .languages {
