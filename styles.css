@@ -82,6 +82,10 @@ button {
   font-weight: bold;
 }
 
+li button {
+  width: 100%;
+}
+
 button:active {
   font-weight: bolder;
 }
@@ -264,10 +268,6 @@ label {
 form ul li {
   list-style: none;
   margin-top: 8px;
-}
-
-li button {
-  width: 100%;
 }
 
 #msg {
