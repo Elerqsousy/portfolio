@@ -12,8 +12,9 @@
   margin-top: -20px;
 }
 
-img {
+article img {
   width: 100%;
+  margin-top: -1vh;
 }
 
 .page-brk {
