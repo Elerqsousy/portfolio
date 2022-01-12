@@ -7,6 +7,16 @@
   justify-content: space-between;
 }
 
+.nav-list {
+  display: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a2236;
+}
+
 .ic-menu {
   margin-right: 20px;
   margin-top: -20px;
@@ -15,6 +25,10 @@
 article img {
   width: 100%;
   margin-top: -1vh;
+}
+
+.page-brk-DV {
+  display: none;
 }
 
 .page-brk {
