@@ -26,18 +26,18 @@
     <header>
       <nav class="navbar">
         <img class="icon" src="images/image_geometry_1.svg" alt="logo" />
-        <img class="nav ic-menu icon" src="images/ic_menu.svg" alt="ic-menu" />
+        <img class="ic-menu icon" src="images/ic_menu.svg" alt="ic-menu" />
         <ul class="nav-list">
-          <li>Hello</li>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <a href="#hello"> <li>Hello</li></a>
+          <a href="#projects"> <li>Portfolio</li></a>
+          <a href="#about"> <li>About</li></a>
+          <a href="#contact"> <li>Contact</li></a>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div class="white-bg">
+      <section class="intro-section" id="hello">
+        <article class="white-bg">
           <h1 class="heading">Charlie Giorgania</h1>
           <p class="para">
             Hello! I am a software developer! I can help you build a product,
@@ -48,9 +48,9 @@
           <button class="buttons-primary-dark" type="button">
             Start collaboration
           </button>
-        </div>
+        </article>
         <img
-          class="page-brk-DV"
+          class="page-brk-dp"
           src="images/image-geometry_1.svg"
           alt="page break"
         />
@@ -60,12 +60,11 @@
         src="images/image_geometry_2.svg"
         alt="page break"
       />
-
-      <section class="works">
+      <section class="works" id="projects">
         <h1 class="heading heading-works">Projects</h1>
-        <article class="dark-bg">
+        <article class="dark-bg project1">
           <img src="images/Rectangle21.png" alt="project image" />
-          <div class="project project1">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -78,9 +77,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project2">
           <img src="images/Rectangle21(1).png" alt="project image" />
-          <div class="project project2">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -93,9 +92,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project3">
           <img src="images/Rectangle21(2).png" alt="project image" />
-          <div class="project project3">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -108,9 +107,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project4">
           <img src="images/Rectangle21(3).png" alt="project image" />
-          <div class="project project4">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -123,9 +122,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project5">
           <img src="images/Rectangle21(4).png" alt="project image" />
-          <div class="project project5">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -138,9 +137,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project6">
           <img src="images/Rectangle21(5).png" alt="project image" />
-          <div class="project project6">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -154,7 +153,7 @@
           </div>
         </article>
       </section>
-      <section class="white-bg">
+      <section class="white-bg" id="about">
         <h2 class="heading">About</h2>
         <p class="para">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -201,7 +200,7 @@
           </li>
         </ul>
       </section>
-      <section class="form-container">
+      <section class="form-container" id="contact">
         <form
           action="https://formspree.io/f/xnqwnerg"
           method="post"
