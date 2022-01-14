@@ -309,10 +309,6 @@
     padding: 40px 0 40px 40px;
   }
 
-  :not(img:hover) ~ .project {
-    display: none;
-  } 
-
   article.dark-bg div button {
     margin: 0;
   }
@@ -711,4 +707,18 @@ section.intro-section article.white-bg {
    100% {
      transform: translateY(0);
    }
+}
+
+article.dark-bg div.project {
+  display: none;
+  animation: mymove .5s;
+}
+
+article.dark-bg:hover div.project {
+  display: flex;
+}
+
+@keyframes mymove {
+  from {bottom: -200px;}
+  to {bottom: 0;}
 }
