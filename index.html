@@ -25,36 +25,52 @@
   <body>
     <header>
       <nav class="navbar">
-        <img
-          class="nav logo icon"
-          src="images/image_geometry_1.svg"
-          alt="logo"
-        />
-        <img class="nav ic-menu icon" src="images/ic_menu.svg" alt="ic-menu" />
+        <img class="icon" src="images/image_geometry_1.svg" alt="logo" />
+        <img class="ic-menu icon" src="images/ic_menu.svg" alt="ic-menu" />
+        <ul class="nav-list">
+          <li><a href="#hello"> Hello</a></li>
+          <li><a href="#projects"> Portfolio</a></li>
+          <li><a href="#about"> About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section class="white-bg">
-        <h1 class="heading">Charlie Giorgania</h1>
-        <p class="para">
-          Hello! I am a software developer! I can help you build a product,
-          feature or website. Taka a look of my works. If you like what you see
-          and have a project you need coded, don’t hesitate and contact me.
-        </p>
-        <button class="buttons-primary-dark" type="button">
-          Start collaboration
-        </button>
+      <section class="intro-section" id="hello">
+        <article class="white-bg">
+          <h1 class="heading">Charlie Giorgania</h1>
+          <p class="para">
+            Hello! I am a software developer! I can help you build a product,
+            feature or website. Taka a look of my works. If you like what you
+            see and have a project you need coded, don’t hesitate and contact
+            me.
+          </p>
+          <button class="buttons-primary-dark" type="button">
+            Start collaboration
+          </button>
+        </article>
+        <img
+          class="page-brk-dp"
+          src="images/image-geometry_1.svg"
+          alt="page break"
+        />
       </section>
       <img
         class="page-brk"
         src="images/image_geometry_2.svg"
         alt="page break"
       />
-      <section class="works">
+      <section class="works" id="projects">
+        <img class="wi wi1" src="images/image_dots-smaller.svg" alt="#" />
+        <img class="wi wi2" src="images/image-geometry_2.svg" alt="#" />
+        <img class="wi wi3" src="images/Group1.svg" alt="#" />
+        <img class="wi wi4" src="images/Group2.svg" alt="#" />
+        <img class="wi wi5" src="images/image-geometry_5.svg" alt="#" />
+        <img class="wi wi6" src="images/image-geometry_4.svg" alt="#" />
         <h1 class="heading heading-works">Projects</h1>
-        <article class="dark-bg">
+        <article class="dark-bg project1">
           <img src="images/Rectangle21.png" alt="project image" />
-          <div class="project project1">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -67,9 +83,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project2">
           <img src="images/Rectangle21(1).png" alt="project image" />
-          <div class="project project2">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -82,9 +98,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project3">
           <img src="images/Rectangle21(2).png" alt="project image" />
-          <div class="project project3">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -97,9 +113,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project4">
           <img src="images/Rectangle21(3).png" alt="project image" />
-          <div class="project project4">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -112,9 +128,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project5">
           <img src="images/Rectangle21(4).png" alt="project image" />
-          <div class="project project5">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -127,9 +143,9 @@
             </button>
           </div>
         </article>
-        <article class="dark-bg">
+        <article class="dark-bg project6">
           <img src="images/Rectangle21(5).png" alt="project image" />
-          <div class="project project6">
+          <div class="project">
             <h2 class="heading2">Project name goes here</h2>
             <ul class="lang-container">
               <li class="languages">HTML/CSS</li>
@@ -143,18 +159,20 @@
           </div>
         </article>
       </section>
-      <section class="white-bg">
-        <h2 class="heading">About</h2>
-        <p class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ea eiusmod
-        </p>
-        <button class="buttons-primary-dark" type="button">
-          Start collaboration &#160;
-          <i class="fa fa-download" aria-hidden="true"></i>
-        </button>
+      <section class="white-bg" id="about">
+        <div class="about-container">
+          <h2 class="heading">About</h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ea eiusmod
+          </p>
+          <button class="buttons-primary-dark" type="button">
+            Get my CV &#160;
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </button>
+        </div>
         <ul class="cards-container">
           <li class="blue about heading3">
             Languages
@@ -188,21 +206,36 @@
             </ul>
             <img class="icon-bg" src="images/ic_skills.svg" alt="#" />
           </li>
+          <li class="about heading-pic">
+            <img
+              class="icon-bg"
+              src="images/image_dots_with_teal.svg"
+              alt="#"
+            />
+          </li>
         </ul>
       </section>
-      <section class="form-container">
+      <section class="form-container" id="contact">
         <form
           action="https://formspree.io/f/xnqwnerg"
           method="post"
           class="white-bg"
         >
-          <h2 class="heading">Get started</h2>
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <ul>
-            <li class="form-li" tabindex="0">
+          <div class="form-text">
+            <h2 class="heading">Get started</h2>
+            <p class="para" id="form-text-desktop">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="para" id="form-text-mobile">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <ul class="form-atr">
+            <li class="form-li form-li-1" tabindex="0">
               <label for="name">Your name</label>
               <input
                 type="text"
@@ -213,11 +246,12 @@
                 required
               />
             </li>
-            <li class="form-li" tabindex="0">
+            <li class="form-li form-li-1" tabindex="0">
               <label for="mail">Your email </label>
               <input type="email" id="mail" name="user-email" required />
             </li>
-            <li class="form-li" tabindex="0">
+            <li class="form-li form-li-2" tabindex="0">
+              <label for="msg" class="labesl-msg">Message</label>
               <textarea
                 id="msg"
                 name="user-message"
@@ -226,8 +260,12 @@
                 required
               ></textarea>
             </li>
-            <li>
-              <button type="submit" class="buttons-primary-dark">
+            <li class="form-button">
+              <button
+                type="submit"
+                class="buttons-primary-dark"
+                id="form-button"
+              >
                 Start collaboration
               </button>
             </li>
@@ -236,7 +274,12 @@
       </section>
     </main>
     <footer>
-      <h2>Get my Resume &#160; <img src="images/ic_link_teal.svg" alt="" /></h2>
+      <h2 class="footer-text footer-text1">
+        Get my Resume &#160; <img src="images/ic_link_teal.svg" alt="" />
+      </h2>
+      <h2 class="footer-text footer-text2">
+        Get my CV &#160; <img src="images/ic_link_teal.svg" alt="" />
+      </h2>
       <figure class="acc">
         <img src="images/ic_stackoverflow.svg" alt="stackoverflow link" />
         <img src="images/ic_github.svg" alt="stackoverflow link" />
