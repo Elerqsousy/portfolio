@@ -190,6 +190,10 @@
     padding: 0 94px 0 160px;
   }
 
+  div.form-text p.para {
+    text-align: center;
+  }
+
   section.intro-section article.white-bg p.para {
     margin: 50px 0 25px 0;
   }
@@ -380,10 +384,6 @@
     justify-content: space-around;
     align-items: center;
     height: 280px;
-  }
-
-  div.form-text p.para {
-    text-align: center;
   }
 
   #form-text-mobile {
