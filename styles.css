@@ -133,6 +133,8 @@
 @media only screen and (min-width: 992px) {
   .nav-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -140,17 +142,19 @@
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
-    align-items: center;
-    justify-content: center;
     border-bottom: 3px solid #f9f9fa;
   }
 
-  .nav-list > a {
+  a {
     text-decoration: none;
+    color: #1A2236;
+  }
+
+  .nav-list > li {
     margin: 0 20px;
   }
 
-  .nav-list > a :hover {
+  .nav-list > li :hover {
     padding-bottom: 2px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
