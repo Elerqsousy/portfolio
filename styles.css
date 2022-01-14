@@ -354,7 +354,8 @@
     display: flex;
     justify-content: center;
     padding: 150px 0;
-    background-image: url(images/image-geometry_6.svg), url(images/image-geometry_7.svg);
+    background-image: url(images/image-geometry_6.svg),
+      url(images/image-geometry_7.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
   }
@@ -700,18 +701,18 @@ section.intro-section article.white-bg {
 }
 
 @keyframes left-right {
-   0% {
-     transform: translateX(-50%);
-   }
+  0% {
+    transform: translateX(-50%);
+  }
 
-   100% {
-     transform: translateY(0);
-   }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 article.dark-bg div.project {
   display: none;
-  animation: mymove .5s;
+  animation: mymove 0.5s;
 }
 
 article.dark-bg:hover div.project {
@@ -719,6 +720,10 @@ article.dark-bg:hover div.project {
 }
 
 @keyframes mymove {
-  from {bottom: -200px;}
-  to {bottom: 0;}
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0;
+  }
 }
