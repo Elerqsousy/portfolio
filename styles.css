@@ -311,7 +311,7 @@
 
   :not(img:hover) ~ .project {
     display: none;
-  }
+  } 
 
   article.dark-bg div button {
     margin: 0;
@@ -697,4 +697,18 @@ footer h2 {
 
 ul {
   list-style: none;
+}
+
+section.intro-section article.white-bg {
+  animation: left-right 1s ease-in-out;
+}
+
+@keyframes left-right {
+   0% {
+     transform: translateX(-50%);
+   }
+
+   100% {
+     transform: translateY(0);
+   }
 }
