@@ -190,6 +190,10 @@
     padding: 0 94px 0 160px;
   }
 
+  section.intro-section article.white-bg p.para {
+    margin: 50px 0 25px 0;
+  }
+
   .heading {
     font-size: 77px;
   }
@@ -414,6 +418,9 @@
   input:focus,
   textarea:focus {
     outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #252c40;
   }
 
   label {
