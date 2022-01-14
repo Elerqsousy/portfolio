@@ -3,6 +3,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  button {
+    min-width: 270px;
+  }
   .page-brk-dp {
     display: none;
   }
@@ -74,6 +77,56 @@
   .heading-pic {
     display: none;
   }
+
+  .form-container {
+    padding: 60px 0 40px 0;
+    margin-top: 30px;
+    background-image: url("images/image_geometry_1.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  #form-text-desktop {
+    display: none;
+  }
+
+  .labesl-msg {
+    display: none;
+  }
+
+  .form-li {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #dfdfe0;
+    background-color: #fff;
+  }
+
+  input,
+  textarea {
+    border: 0;
+    padding: 4px 16px 8px 16px;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+
+  label {
+    background-color: #fff;
+    margin: 4px 0 0 16px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  footer {
+    padding: 16px 16px 30px 16px;
+  }
+
+  .footer-text2 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -137,7 +190,7 @@
   }
 
   .buttons-primary-dark {
-    padding: 0 45px;
+    padding: 0 1vw;
   }
 
   .works {
@@ -295,6 +348,87 @@
     width: 222px;
     height: 222px;
   }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+    background-image: url(images/image-geometry_6.svg),
+      url(images/image-geometry_7.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .form-container form.white-bg {
+    width: 40vw;
+  }
+
+  .form-atr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .form-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+  }
+
+  div.form-text p.para {
+    text-align: center;
+  }
+
+  #form-text-mobile {
+    display: none;
+  }
+
+  .form-li {
+    margin: 15px 0;
+  }
+
+  .form-li-1 {
+    width: 48%;
+  }
+
+  .form-li-2 {
+    width: 100%;
+  }
+
+  .form-button {
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #dfdfe0;
+    padding: 15px 20px;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+
+  label {
+    margin: 4px 0 7px 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  footer {
+    padding: 20px 100px;
+  }
+
+  .footer-text1 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -369,7 +503,6 @@ button {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
-  min-width: 270px;
 }
 
 li button {
@@ -436,6 +569,7 @@ button:active {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 800px;
 }
 
 .about {
@@ -490,27 +624,15 @@ button:active {
 
 .form-container {
   background-color: #f9f9fa;
-  padding: 60px 0 40px 0;
-  margin-top: 30px;
-  background-image: url("images/image_geometry_1.svg");
-  background-repeat: no-repeat;
-  background-position: left top;
 }
 
 .form-li {
   display: flex;
   flex-direction: column;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  border-color: #dfdfe0;
-  background-color: #fff;
 }
 
 input,
 textarea {
-  border: 0;
-  padding: 4px 16px 8px 16px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -519,20 +641,11 @@ textarea {
   color: #1a2236;
 }
 
-input:focus,
-textarea:focus {
-  outline: none;
-}
-
 label {
-  background-color: #fff;
   color: #7d7c84;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 15px;
-  margin: 4px 0 0 16px;
 }
 
 form ul li {
@@ -545,12 +658,19 @@ form ul li {
 
 footer {
   background-color: #1a2236;
-  padding: 32px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-text {
+  padding: 30px 40px 0 0;
 }
 
 .acc {
   display: flex;
   justify-content: space-between;
+  width: 400px;
 }
 
 footer img {

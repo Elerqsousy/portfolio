@@ -221,13 +221,21 @@
           method="post"
           class="white-bg"
         >
-          <h2 class="heading">Get started</h2>
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <ul>
-            <li class="form-li" tabindex="0">
+          <div class="form-text">
+            <h2 class="heading">Get started</h2>
+            <p class="para" id="form-text-desktop">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="para" id="form-text-mobile">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <ul class="form-atr">
+            <li class="form-li form-li-1" tabindex="0">
               <label for="name">Your name</label>
               <input
                 type="text"
@@ -238,11 +246,12 @@
                 required
               />
             </li>
-            <li class="form-li" tabindex="0">
+            <li class="form-li form-li-1" tabindex="0">
               <label for="mail">Your email </label>
               <input type="email" id="mail" name="user-email" required />
             </li>
-            <li class="form-li" tabindex="0">
+            <li class="form-li form-li-2" tabindex="0">
+              <label for="msg" class="labesl-msg">Message</label>
               <textarea
                 id="msg"
                 name="user-message"
@@ -251,8 +260,12 @@
                 required
               ></textarea>
             </li>
-            <li>
-              <button type="submit" class="buttons-primary-dark">
+            <li class="form-button">
+              <button
+                type="submit"
+                class="buttons-primary-dark"
+                id="form-button"
+              >
                 Start collaboration
               </button>
             </li>
@@ -261,7 +274,12 @@
       </section>
     </main>
     <footer>
-      <h2>Get my Resume &#160; <img src="images/ic_link_teal.svg" alt="" /></h2>
+      <h2 class="footer-text footer-text1">
+        Get my Resume &#160; <img src="images/ic_link_teal.svg" alt="" />
+      </h2>
+      <h2 class="footer-text footer-text2">
+        Get my CV &#160; <img src="images/ic_link_teal.svg" alt="" />
+      </h2>
       <figure class="acc">
         <img src="images/ic_stackoverflow.svg" alt="stackoverflow link" />
         <img src="images/ic_github.svg" alt="stackoverflow link" />
