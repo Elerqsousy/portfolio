@@ -6,6 +6,7 @@
   button {
     min-width: 270px;
   }
+
   .page-brk-dp {
     display: none;
   }
@@ -290,10 +291,6 @@
     margin-left: 10vw;
   }
 
-  :not(img:hover) ~ .project {
-    display: none;
-  }
-
   .project {
     position: absolute;
     bottom: 0;
@@ -305,8 +302,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
     padding: 40px 0 40px 40px;
+  }
+
+  :not(img:hover) ~ .project {
+    display: none;
   }
 
   article.dark-bg div button {
@@ -353,8 +353,7 @@
     display: flex;
     justify-content: center;
     padding: 150px 0;
-    background-image: url(images/image-geometry_6.svg),
-      url(images/image-geometry_7.svg);
+    background-image: url(images/image-geometry_6.svg), url(images/image-geometry_7.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
   }
