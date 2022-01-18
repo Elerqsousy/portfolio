@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://elerqsousy.github.io/Portfolio/)
+[Live Demo Link](https://elerqsousy.github.io/portfolio/)
 
 ## Authors
 
