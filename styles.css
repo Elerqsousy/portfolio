@@ -362,7 +362,8 @@
     display: flex;
     justify-content: center;
     padding: 150px 0;
-    background-image: url(images/image-geometry_6.svg),
+    background-image: 
+      url(images/image-geometry_6.svg),
       url(images/image-geometry_7.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
