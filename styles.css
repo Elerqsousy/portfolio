@@ -45,8 +45,8 @@
     position: absolute;
     width: 263px;
     height: 114px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     background: url("images/ic_drawer_image.svg");
     background-repeat: no-repeat;
   }
@@ -270,6 +270,10 @@
   .nav-btn {
     visibility: hidden;
     display: none;
+  }
+
+  button {
+    min-width: 270px;
   }
 
   .page-brk {
@@ -791,10 +795,6 @@ footer img {
 
 figure img {
   width: 24px;
-}
-
-button {
-  min-width: 270px;
 }
 
 footer h2 {
