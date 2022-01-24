@@ -11,10 +11,6 @@
   .menu-drawer-height {
     height: 100vh;
   }
-  
-  /* button {
-    min-width: 270px;
-  } */
 
   .page-brk-dp {
     display: none;
@@ -85,7 +81,8 @@
     background-size: cover;
   }
 
-  .close-drawer-btn, .nav-btn {
+  .close-drawer-btn,
+  .nav-btn {
     position: absolute;
     min-width: 16px;
     width: 16px;
@@ -117,19 +114,19 @@
     display: none;
   }
 
-.drawer-menu-items li a {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 300%;
-  color: #1a2236;
-}
+  .drawer-menu-items li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 300%;
+    color: #1a2236;
+  }
 
-.drawer-menu-items li a:focus {
-  text-decoration: underline;
-}
+  .drawer-menu-items li a:focus {
+    text-decoration: underline;
+  }
 
   .works {
     display: grid;
@@ -263,6 +260,16 @@
 
   .page-brk-dp {
     width: 50%;
+  }
+
+  .open-nav {
+    visibility: hidden;
+    display: none;
+  }
+
+  .nav-btn {
+    visibility: hidden;
+    display: none;
   }
 
   .page-brk {
@@ -459,7 +466,8 @@
     display: flex;
     justify-content: center;
     padding: 150px 0;
-    background-image: url(images/image-geometry_6.svg), url(images/image-geometry_7.svg);
+    background-image: url(images/image-geometry_6.svg),
+      url(images/image-geometry_7.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
   }
@@ -783,6 +791,10 @@ footer img {
 
 figure img {
   width: 24px;
+}
+
+button {
+  min-width: 270px;
 }
 
 footer h2 {
