@@ -825,8 +825,13 @@ section.intro-section article.white-bg {
   }
 }
 
-article.dark-bg div.project {
+/* article.dark-bg div.project {
   display: none;
+  animation: mymove 0.5s;
+} */
+
+.dark-bg:not(:hover, :focus, :active, :focus-visible, :focus-within) .project {
+  visibility: hidden;
   animation: mymove 0.5s;
 }
 
