@@ -128,6 +128,12 @@
     text-decoration: underline;
   }
 
+  .heading2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
   .works {
     display: grid;
     grid-template-rows: auto auto auto auto auto auto;
@@ -310,6 +316,12 @@
     font-size: 77px;
   }
 
+  .heading2 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80%;
+  }
+
   .buttons-primary-dark {
     padding: 0 1vw;
   }
@@ -318,6 +330,12 @@
     position: relative;
     height: 113vw;
     margin-bottom: 12vw;
+  }
+
+  .dark-bg:not(:hover, :focus, :active, :focus-visible, :focus-within)
+    .project {
+    visibility: hidden;
+    animation: mymove 0.5s;
   }
 
   .project1,
@@ -430,7 +448,7 @@
   }
 
   article.dark-bg div ul {
-    margin: 30px 0;
+    margin: 15px 0;
     font-size: 1vw;
   }
 
@@ -600,14 +618,6 @@ article img {
   font-weight: normal;
 }
 
-.heading2 {
-  margin: 15px 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 80%;
-}
-
 button {
   cursor: pointer;
   border: none;
@@ -713,6 +723,11 @@ button:active {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.heading2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 
 .heading3 {
@@ -828,11 +843,6 @@ section.intro-section article.white-bg {
   display: none;
   animation: mymove 0.5s;
 } */
-
-.dark-bg:not(:hover, :focus, :active, :focus-visible, :focus-within) .project {
-  visibility: hidden;
-  animation: mymove 0.5s;
-}
 
 article.dark-bg:hover div.project {
   display: flex;
