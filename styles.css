@@ -132,6 +132,7 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 80%;
+    margin: 20px 0;
   }
 
   .works {
@@ -856,4 +857,23 @@ article.dark-bg:hover div.project {
   to {
     bottom: 0;
   }
+}
+
+.popup-close-btn {
+background: url("images/ic_close_drawer.svg");
+background-repeat: no-repeat;
+min-width: 16px;
+width: 16px;
+height: 16px;
+}
+
+.buttons-primary-white-popup {
+  background-color: #fff;
+  color: #1a2236;
+  width: 80%;
+  border: 1px solid #1a2236;
+}
+
+.buttons-primary-white-popup:hover, .buttons-primary-white-popup:active {
+  
 }
